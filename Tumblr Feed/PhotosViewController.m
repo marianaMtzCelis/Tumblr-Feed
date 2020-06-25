@@ -88,6 +88,7 @@
     }
     
     cell.dateLabel.text = post[@"date"];
+
     
     return cell;
 }
