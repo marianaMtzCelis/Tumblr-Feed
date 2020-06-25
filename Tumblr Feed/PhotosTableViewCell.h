@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (weak, nonatomic) IBOutlet UIImageView *photoCellView;
 
+@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
+
 
 @end
 

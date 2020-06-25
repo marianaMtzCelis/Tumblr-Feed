@@ -67,6 +67,7 @@
     NSDictionary *post = self.posts[indexPath.row];
     
     NSArray *photos = post[@"photos"];
+    
     if (photos) {
         
        // 1. Get the first photo in the photos array
@@ -85,6 +86,8 @@
         
         self.photosTableView.rowHeight = 240;
     }
+    
+    cell.dateLabel.text = post[@"date"];
     
     return cell;
 }
