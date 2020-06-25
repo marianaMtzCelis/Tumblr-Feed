@@ -1,4 +1,4 @@
-# Project 1 - *Tumblr-Feed*
+# Lab 1 - *Tumblr-Feed*
 
 **Tumblr-Feed** is a Tumblr Feed simulator for iOS.
 
